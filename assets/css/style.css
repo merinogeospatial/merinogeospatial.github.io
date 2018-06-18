@@ -2,8 +2,8 @@
 html {height: 100%; margin: 0;}
 
 a {
-    color: #777777;
-    text-decoration: none;
+    color: royalblue;
+
 }
 
 a:hover {
@@ -12,6 +12,7 @@ a:hover {
 
 h1 {
     font-family: 'Georgia', Times, Times New Roman, serif;
+    text-align: center;
 }
 
 body {
@@ -43,14 +44,10 @@ header:hover {
 
 #links {
     float: right;
-    margin: 20px;
-    padding: 10px;
+    margin: 0;
+    padding: 0;
     margin-right: 20%;
  
-}
-
-#links a {
-    padding: 0 5px;
 }
 
 .pipe {
@@ -159,4 +156,8 @@ width: 90px;
 
 button:hover {
     background-color: #E89F0C;
+}
+
+section {
+    margin: 0;
 }
