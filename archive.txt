@@ -1,0 +1,16 @@
+
+Google Fiber: Telecom Generator
+Python ETL Data Migration
+
+In order to address the challenge of enabling telecom connectivity with legacy records with GIS data, various modules that cleaned, transformed, and loaded data was created. Legacy records of connectivity were recorded in various flat-file formats, but the required relational data and attribution within our GIS did not exist. With multiple variations across markets and less than desirable data quality, before introducing the complex logic to create connectivity a semiautomated cleanup process was coordinated between our development team, stakeholders, and vendors.
+
+The telecom connectivity model we used was created by a third-party as a part of using their telecom GIS management software. In order for us to retrofit our data to conform with the software's tools and modules, we had to reverse engineer what happens on the backend when features are created and connected. In addition to prototyping - optimized connection in favor of speed over space. This reduced time per connection from (8-60 seconds) to under 0.2 seconds.
+City of Raleigh: Experience Based Level of Service
+GIS Data Modeling
+
+The City of Raleigh extends the traditional parks level of service model by accounting for experiences and level of access. By quantifying the amentities of each park and combining its spatial properties (such as walkability, population desnsity, etc.), we are able to produce actionable insights to park development and public land acquisition.
+
+Aside from contributing to the model's logic and data creation, I was responsible for improving the quality of code, introducing new variables in to the model, and revamping the techniques to have better statistical meaning in order to become more actionable for land acquisition decision making.
+Compete Tool: It's a Secret!
+Node JS Webscraper
+
